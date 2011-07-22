@@ -92,9 +92,6 @@ Your new app has the following features.
 * **postgres:** (optional) configured with provided password
 * **cucumber and capybara:** for integration testing
 * **ruby debug**
-* **awesome_print**
-* **Metrical** for running metrics on code quality
-* **annotate-models**
 
 The template also generates a good .gitignore file, initializes an empty git repository, and cleans up some unnecessary rails files.
 
@@ -103,9 +100,6 @@ No additional setup tasks required.
 ## Tips for using your new rails application
     
 * Debug your app by adding *debugger* in your code. Use *rails s --debug* to debug in server. Type *help* in debugger to learn commands.
-* Use *ap* to print awesomely in the console.
-* Annotate your models by running *annotate* at any time.
-* Generate code quality metrics by running *metrical*.
 * Run individual specs or feature files in textmate by typing: *cmd-r*.
     
 ## Bonus Setup
@@ -150,6 +144,7 @@ For a nice console prompt, logging to console, console indenting, setup your ~.i
     end
     
 ### Install Autotest and Spork for fast, continuous testing
+## TODO: update this with either Guard or Watchr + Spork
 
 First, make sure you have growl installed and running on login.
 
