@@ -16,7 +16,6 @@ gem "rspec-rails", :group => [:development, :test]
 gem 'cucumber-rails', :group => :test
 gem 'database_cleaner', :group => :test
 gem 'capybara', :group => :test
-gem "annotate-models", :group => :development
 gem "rails3-generators", :group => [:development, :test]
 gem "factory_girl_rails", "> 1.1", :group => [:development, :test]
 gem "haml-rails"
