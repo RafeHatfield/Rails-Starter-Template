@@ -11,7 +11,7 @@
 #--------------------------
 # BASIC GEMS
 #--------------------------
-gem "ruby-debug19", :group => [:development, :test]\
+gem "ruby-debug19", :group => [:development, :test]
 gem "rspec-rails", :group => [:development, :test]
 gem 'cucumber-rails', :group => :test
 gem 'database_cleaner', :group => :test
