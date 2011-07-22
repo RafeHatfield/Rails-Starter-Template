@@ -4,7 +4,9 @@
 # For templating commands, see thor docs: http://rdoc.info/github/wycats/thor/master/Thor/Actions#copy_file-instance_method
 # and rails specific templating commands at: http://edgeguides.rubyonrails.org/generators.html#generator-methods
 
-@template_path = "https://raw.github.com/mitch101/Rails-3-Starter-Kit/master"
+# full credit to Mitch for putthing this together, I merely modified to suit myself https://github.com/mitch101
+
+@template_path = "https://raw.github.com/RafeHatfield/Rails-Starter-Template/master"
 
 #--------------------------
 # BASIC GEMS
