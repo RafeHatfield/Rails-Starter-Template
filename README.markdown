@@ -21,10 +21,10 @@ Load your .profile:
     $ rvm -v
     $ rvm list
 
-### Install ruby 1.8.7:
+### Install ruby 1.9.2:
 
-    $ rvm install 1.8.7
-    $ rvm 1.8.7 --default
+    $ rvm install 1.9.2
+    $ rvm 1.9.2 --default
     $ ruby -v
     $ rvm list
     $ rvm gemdir
@@ -41,6 +41,10 @@ Make gem install not compile rdoc or ri, add the following to ~/.gemrc:
     $ rails -v
 
 ## Install Postgres  
+
+Use Homebrew (guide here - https://willj.net/2011/05/31/setting-up-postgresql-for-ruby-on-rails-development-on-os-x/)
+
+OR
 
 Get the [one click installer](http://www.postgresql.org/download/macosx) (> v 9.0.3), and run the app inside the dmg. (Note: I had to restart my system and re-run the installer). Use the default settings, set the password to postgres. Don't run stack builder at the end.
 
@@ -68,7 +72,7 @@ Install Haml textmate bundle:
 
 Install cucumber bundle:
 
-    $ git clone git://github.com/aslakhellesoy/cucumber-tmbundle.git Cucumber.tmbundle
+    $ git clone git clone https://github.com/drnic/cucumber-tmbundle Cucumber.tmbundle
 
 Bundles > Bundle Editor > Reload Bundles, in TextMate.
 

@@ -9,17 +9,15 @@
 #--------------------------
 # BASIC GEMS
 #--------------------------
-gem "ruby-debug", :group => [:development, :test]
-gem "awesome_print", :group => [:development, :test]
+gem "ruby-debug19", :group => [:development, :test]\
 gem "rspec-rails", "2.5.0", :group => [:development, :test]
 gem 'cucumber-rails', "0.4.0", :group => :test
 gem 'database_cleaner', :group => :test
 gem 'capybara', "0.4.1.2", :group => :test
 gem "annotate-models", :group => :development
-gem 'metrical', :group => :development
 #gem 'rake', "0.8.7" # There was a bug in 1.9 rake with rails, however forcing version here makes you use bundle exec rake, which isn't nice.
 gem "rails3-generators", :group => [:development, :test]
-gem "factory_girl_rails", "1.0.1", :group => [:development, :test]
+gem "factory_girl_rails", "> 1.1", :group => [:development, :test]
 gem "haml-rails", ">= 0.3.4"
 gem "compass", ">= 0.11.3"
 
